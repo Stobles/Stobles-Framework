@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: min-content;
+
+  gap: 8px;
+}
+
+#todo-list {
+  padding: 0px;
+}
+
+.todo-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.todo-item button {
+  background-color: green;
+  border: 1px solid black;
+
+  padding: 8px;
+  border-radius: 8px;
+
+  color: white;
+}
